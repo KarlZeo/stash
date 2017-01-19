@@ -1,0 +1,16 @@
+MainContent{
+	float:left;
+	clear:none;
+}
+MainContent Element#background{
+	fill:#EFEFF4;
+	fill-alpha:1;
+	float:none;
+	clear:none;
+	corner-radius:0px 6px 0px 6px;
+}
+MainContent Element#box{
+	fill:blue;
+	float:left;
+	clear:none;
+}

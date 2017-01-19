@@ -1,0 +1,28 @@
+@import url("mainContent.css");
+@import url("articleList.css");
+@import url("slider.css");
+@import url("sliderList.css");
+LeftSideBar{
+	float:left;
+	clear:left;
+}
+Section#buttonSection {
+	padding-top:16px;
+	padding-left:28px;
+}
+Section#buttonSection SelectButton{
+	fill-alpha:0.2,0.0;
+	float:left;
+	clear:left;
+	margin-bottom:12px,12px;
+	padding:0px;
+}
+Section#buttonSection SelectButton:selected{
+	fill-alpha:0.6,0.0;
+}
+Section#buttonSection SelectButton#inbox{fill:~/Desktop/svg_icons/inbox.svg white,white;}
+Section#buttonSection SelectButton#home{fill:~/Desktop/svg_icons/home.svg white,white;}
+Section#buttonSection SelectButton#pics{fill:~/Desktop/svg_icons/pics.svg white,white;}
+Section#buttonSection SelectButton#camera{fill:~/Desktop/svg_icons/camera.svg white,white;}
+Section#buttonSection SelectButton#game{fill:~/Desktop/svg_icons/game.svg white,white;}
+Section#buttonSection SelectButton#view{fill:~/Desktop/svg_icons/view.svg white,white;}

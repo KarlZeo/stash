@@ -1,0 +1,73 @@
+List{
+   float:left; 
+   clear:left; 
+   padding:0px;
+}
+
+
+List Container{ 
+    width:100%; 
+    padding-right:10px;
+    margin:0px;
+    float:left;
+    clear:left; 
+}
+
+List#articleList Container ArticleItem:selected{
+	fill-alpha:0.2;
+}
+List#articleList Container ArticleItem{
+	fill:#B9B9B9;
+    fill-alpha:0;
+}
+Section#textContainer{
+	fill:white;
+	float:left;
+	clear:left;
+	fill-alpha:0;
+	padding-left:12px;
+	padding-top:12px;
+}
+Section#textContainer Text{
+	float:left;
+	clear:left;
+	font:Lucida Grande;
+	size:12px;
+	align:left;
+	autoSize:none;
+	color:grey9;
+	type:dynamic;
+	selectable:false;
+	wordWrap:true;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:0px;
+	backgroundColor:orange;
+	background:false;
+}
+Section#textContainer Text#header{
+	
+}
+Section#textContainer Text#date{
+	backgroundColor:green;
+	float:right;
+	clear:right;
+	align:right;
+    padding-right:-26px;
+}
+Section#textContainer Text#title{
+	size:16px;
+	margin-top:0px;
+	color:grey3;
+}
+Section#textContainer Text#content{
+	margin-top:0px;
+	backgroundColor:yellow;
+	background:false;
+	scrollable:false;
+	multiline:true;
+	wordWrap:true;
+}

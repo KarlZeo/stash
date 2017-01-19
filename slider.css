@@ -1,0 +1,22 @@
+/*Vertical slider*/
+VSlider{
+	float:right;
+	clear:right;
+	width:6px;
+    margin:0px;
+    fill:white9;
+    fill-alpha:1;
+    padding:0px;
+	drop-shadow:none;
+}
+VSlider Button{
+	float:none;
+	clear:none;
+	fill:grey9;
+    fill-alpha:1;
+	corner-radius:3px;
+	drop-shadow:none;/**/
+}
+VSlider Button:down{
+	fill:grey7;
+}

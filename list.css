@@ -1,0 +1,66 @@
+/*Generics*/
+InsetShadow{ 
+    drop-shadow:drop-shadow(0px 0 #000000 0.4 4 4 1 2 true); 
+} 
+List{
+   margin-top:-1px;
+   margin-left:-1px;
+   float:left; 
+   clear:left; 
+   fill:white; 
+   fill-alpha:1;
+   line:white9; 
+   line-alpha:1; 
+   line-offset-type:outside; 
+   line-thickness:1px; 
+   drop-shadow:<InsetShadow>;
+   padding:0px;
+}
+List Container{ 
+    width:100%; 
+    margin:0px;
+    float:left;
+    clear:left; 
+    drop-shadow:none;
+    line-thickness:0px; 
+    line-alpha:0;
+    padding-right:-1px;/*trick to get the btns to stroke outside mask*/
+}
+/*Button*/
+List Container SelectTextButton{ 
+   float:left; 
+   clear:left; 
+   width:100%; 
+   height:24px; 
+   fill:white; 
+   fill-alpha:0; 
+   line:white9; 
+   line-alpha:1; 
+   line-thickness:1px; 
+   line-offset-type:outside; 
+   drop-shadow:none; 
+   margin-top:-1px;
+   margin-left:-1px; 
+   padding-right:0px;
+}
+List Container SelectTextButton:selected{
+	fill:#B9B9B9;
+}
+/*Text*/
+List Container SelectTextButton Text{ 
+   float:none; 
+   clear:none; 
+   width:100%; 
+   height:24px; 
+   margin-left:12px; 
+   margin-top:4px; 
+   autoSize:left; 
+   font:Lucida Grande; 
+   size:12; 
+   align:left; 
+   color:grey5; 
+}
+List Container SelectTextButton:selected Text{
+	font:Lucida Grande Bold;
+}
+Section#listSection{fill:green;fill-alpha:0;float:left;clear:left;padding-top:12px;padding-left:24px;}

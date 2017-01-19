@@ -1,0 +1,36 @@
+Section#titleBar{
+	float:left;
+	clear:left;
+	padding-top:4px;/*4*/
+	padding-left:8px;/*8*/
+}
+Section#titleBar Button{/*adding padding here shouldnt be necessary*/
+	width:10px;
+	height:10px;
+	corner-radius:5px;
+	float:left;
+	clear:none;
+	margin-right:8px;
+	margin-top:0px;
+	padding-left:0px;
+	padding-top:0px;
+	line-offset-type:outside;
+	line-alpha:1;
+	line-thickness:1px;
+}
+Section#titleBar Button:over{
+	fill:#A7A7A7;
+	line:#828282;
+}
+Section#titleBar Button#close{
+	fill:#FF5F52;
+	line:#E33E32;
+}
+Section#titleBar Button#minimize{
+	fill:#FFBE05;
+	line:#E2A100;
+}
+Section#titleBar Button#maximize{
+	fill:#15CC35;
+	line:#17B230;
+}
